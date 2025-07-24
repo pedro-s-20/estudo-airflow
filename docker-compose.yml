@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+
+  mock-server:
+    image: mock-server:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./mock-server:/mock-server
+
+  estudo-airflow:
+    image: estudo-airflow:latest
+  
+    volumes:
+      - ./airflow:/opt/airflow
+
+    ports:
+      - "8080:8080"
+
+    command: airflow standalone

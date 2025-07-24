@@ -1,0 +1,6 @@
+{"timestamp":"2025-07-24T12:33:25.347352","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-24T12:33:25.348953","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag-test-endpoint-calls.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-24T12:33:26.006496Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-24T12:33:26.008250Z","level":"info","event":"Resultado consulta API ViaCEP: \"{'cep': '01001-000', 'logradouro': 'Praça da Sé', 'complemento': 'lado ímpar', 'unidade': '', 'bairro': 'Sé', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}\"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-24T12:33:26.009404Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-24T12:33:26.008534","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

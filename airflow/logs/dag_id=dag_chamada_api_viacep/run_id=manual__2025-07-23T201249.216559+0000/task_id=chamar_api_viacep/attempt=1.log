@@ -1,0 +1,4 @@
+{"timestamp":"2025-07-23T20:13:13.982671","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-23T20:13:13.984406","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/welcome-dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-23T20:13:14.754922Z","level":"info","event":"Resultado consulta API: \"{'cep': '01001-000', 'logradouro': 'Praça da Sé', 'complemento': 'lado ímpar', 'unidade': '', 'bairro': 'Sé', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}\"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-23T20:13:14.757133","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

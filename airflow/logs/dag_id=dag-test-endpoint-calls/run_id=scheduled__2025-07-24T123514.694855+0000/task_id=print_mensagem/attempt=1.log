@@ -1,0 +1,4 @@
+{"timestamp":"2025-07-24T12:35:21.969099","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-24T12:35:21.970558","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag-test-endpoint-calls.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-24T12:35:22.107206Z","level":"info","event":"Teste consulta APIs Mock e externa (ViaCEP)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-24T12:35:22.110669","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
